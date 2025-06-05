@@ -1,0 +1,27 @@
+$color: #2A254B;
+$color-secondary: #726E8D;
+$text-font: Arial, Helvetica, sans-serif;
+$title-font: clashdisplay;
+$font-weight: 400;
+@font-face {
+    font-family: clashdisplay;
+    src: url(/Home/ClashDisplay_Complete/Fonts/OTF/ClashDisplay-Medium.otf);
+}
+@font-face {
+    font-family: clash-light;
+    src: url(/Home/ClashDisplay_Complete/Fonts/OTF/ClashDisplay-Light.otf);
+}
+@font-face {
+    font-family: Clash-Regugular;
+    src: url(/Home/ClashDisplay_Complete/Fonts/OTF/ClashDisplay-Regular.otf);
+}
+
+.btn {
+    padding: 16px 32px;
+    background-color: #F9F9F9;
+    border-color: transparent;
+    font-size: 16px;
+    font-family: $text-font;
+    font-weight: $font-weight;
+    color: $color;
+}

@@ -1,0 +1,192 @@
+.main__hero {
+  width: 100%;
+  max-width: 1440px;
+  height: 223px;
+  margin: auto;
+  .wrap-title {
+    width: 1440px;
+    height: 151px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .main__hero__title {
+      font-family: clash-light;
+      font-weight: $font-weight;
+      font-size: 36px;
+      color: $color;
+    }
+  }
+  .main__hero__wraper {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .wrap-link {
+      width: 100%;
+      max-width: 897px;
+      height: 70px;
+      display: flex;
+      align-items: center;
+       a {
+      text-decoration: none;
+      color: $color;
+      font-weight: $font-weight;
+      font-family: $text-font;
+      font-size: 20px;
+      background-color: #ffffff;
+    }
+    }
+    .wrap-link-2 {
+      width: 100%;
+      max-width: 297px;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      span {
+        font-family: $text-font;
+        font-weight: $font-weight;
+        font-family: 14px;
+        color: $color;
+      }
+      a {
+        text-decoration: none;
+        color: $color;
+        font-weight: $font-weight;
+        font-family: $text-font;
+        font-size: 20px;
+        background-color: #ffffff;
+      }
+    }
+  }
+}
+
+.container {
+        width: 100%;
+        max-width: 100%;
+        height: 610px;
+        display: flex;
+        flex-direction: column;
+    }
+    .container-2 {
+        width: 100%;
+        max-width: 100%;
+        height: 625px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+.main__section-2 {
+    width: 100%;
+    max-width: 1440px;
+    min-height: 510px;
+    margin: auto;
+    &__title {
+        font-family: clash-light;
+        font-weight: $font-weight;
+        color: $color;
+        font-size: 32px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+    .main__section-2__wrap_card-2 {
+        width: 100%;
+        height: 462px;
+        display: flex;
+        justify-content: space-between;
+        // overflow: hidden;
+        .card-2 {
+            width: 355px;
+            height: 530px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        & :nth-child(2) {
+            color: $color;
+            font-family: clashdisplay;
+            font-weight: $font-weight;
+            font-size: 20px;
+            line-height: 140%;
+            letter-spacing: 0%;
+        }
+        & :last-child {
+            font-family: $text-font;
+            color: $color;
+            font-weight: $font-weight;
+            font-size: 18px;
+            line-height: 150%;
+            letter-spacing: 0%;
+        }
+    }
+    &__btn {
+        align-self: center;
+    }
+}
+
+.main__section-3 {
+  width: 100%;
+  max-width: 1740px;
+  height: 525px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  .wrapper {
+    width: 100%;
+    max-width: 900px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    justify-content: space-around;
+    .wrap-text {
+      width: 100%;
+      max-width: 600px;
+      height: 110px;
+      border: 1px solid;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      h3 {
+        font-family: Clash-Regugular;
+        font-weight: $font-weight;
+        color: $color;
+        font-size: 32px;
+      }
+      p {
+        font-family: $text-font;
+        font-weight: $font-weight;
+        font-size: 16px;
+        line-height: 150%;
+        color: $color;
+        width: 470px;
+      }
+    }
+    .form-input {
+             width: 472px;
+             height: 58px;
+             background-color: #F9F9F9;
+             display: flex;
+             justify-content: space-between;
+             & :first-child {
+                background-color: transparent;
+                border-color: transparent;
+                font-family: $text-font;
+                font-size: 16px;
+                color: $color;
+                padding: 17px 32px;
+                opacity: 30%;
+                outline-color: transparent;
+             }
+             & :last-child {
+                font-family: $text-font;
+                color: #fff;
+                background-color: $color;
+                padding: 16px 32px;
+                border-color: transparent;
+                font-size: 16px;
+             }
+        }
+  }
+}

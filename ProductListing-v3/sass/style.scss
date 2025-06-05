@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import 'variables';
+
+@import 'header';
+
+main {
+  width: 100%
+}
+
+@import 'sections';
+
+@import 'footer';
