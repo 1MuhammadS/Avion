@@ -569,20 +569,17 @@ main {
   .main__section-4 {
     width: 370px;
     height: 292px;
-    border: 1px solid red;
     margin: 0;
     overflow: hidden;
   }
   .main__section-4 .container-2 {
     width: 370px;
     height: 292px;
-    border: 1px solid;
     margin: 0;
   }
   .main__section-4 .container-2 .wrap-text {
     width: 329px;
     height: 86px;
-    border: 1px solid;
   }
   .main__section-4 .container-2 .wrap-text .wrap-text__h3 {
     font-size: 20px;

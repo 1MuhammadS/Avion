@@ -257,7 +257,7 @@ main {
 }
 .main__section-3 .wrapper {
   width: 100%;
-  max-width: 900px;
+  max-width: 800px;
   height: 500px;
   display: flex;
   flex-direction: column;
@@ -268,7 +268,6 @@ main {
   width: 100%;
   max-width: 600px;
   height: 110px;
-  border: 1px solid;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -313,6 +312,82 @@ main {
   font-size: 16px;
 }
 
+.hidden-btn {
+  display: none;
+}
+
+@media screen and (max-width: 390px) {
+  main {
+    width: 390px;
+  }
+  .main__hero {
+    width: 370px;
+    height: 205px;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F9F9;
+  }
+  .main__hero .wrap-title {
+    width: 370px;
+    height: 205px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .main__hero .wrap-title .main__hero__title {
+    font-size: 32px;
+  }
+  .main__hero .wrap-title .wrap-hidden-btn {
+    display: flex;
+    gap: 8px;
+  }
+  .main__hero .wrap-title .wrap-hidden-btn .hidden-btn {
+    display: block;
+    text-decoration: none;
+    background-color: #fff;
+  }
+  .main__hero .main__hero__wraper {
+    display: none;
+  }
+  .main__section-2 {
+    width: 390px;
+    height: 1396px;
+  }
+  .main__section-2 .container {
+    width: 370px;
+    height: 652px;
+  }
+  .main__section-2 .container .main__section-2__wrap_card-2 {
+    width: 100%;
+    height: 652px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main__section-2 .container .main__section-2__wrap_card-2 .card-2 {
+    width: 163px;
+    height: 288px;
+  }
+  .main__section-2 .hidden {
+    display: none;
+  }
+  .main__section-2 .container-2 {
+    width: 370px;
+    height: 744px;
+  }
+  .main__section-2 .container-2 .main__section-2__wrap_card-2 {
+    width: 100%;
+    height: 744px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main__section-2 .container-2 .main__section-2__wrap_card-2 .card-2 {
+    width: 163px;
+    height: 288px;
+  }
+  .main__section-3 {
+    display: none;
+  }
+}
 .footer {
   width: 100%;
   max-width: 1740px;
